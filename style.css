@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+:root {
+  --background: #df9278;
+  --bg-hd: #f7d6a1;
+}
+body {
+  background: var(--background);
+}
+
+header {
+  font-family: "Concert One", cursive;
+  display: flex;
+  background: var(--bg-hd);
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0 40px 0 20px;
+}
+.logo {
+  height: 65px;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+}
