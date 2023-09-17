@@ -96,7 +96,7 @@ main {
   padding: 2.5px 12px;
   border-radius: 8px;
 }
-#info {
+#about {
   display: flex;
   padding: 50px 10px;
   max-width: 1200px;
@@ -109,7 +109,6 @@ main {
   justify-content: center;
   gap: 25px;
   font-family: var(--font-h);
-  width: 60%;
   padding: 50px 0px;
 }
 
