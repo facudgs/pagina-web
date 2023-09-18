@@ -110,6 +110,7 @@ main {
   gap: 25px;
   font-family: var(--font-h);
   padding: 50px 0px;
+  text-align: center;
 }
 
 .valores span {
