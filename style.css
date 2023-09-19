@@ -90,10 +90,10 @@ main {
   border-radius: 8px;
 }
 .btn2 a {
-  border-style: double;
+  border: 1px solid;
   /* background: var(--bg-hd); */
   color: var(--color-h);
-  padding: 2.5px 12px;
+  padding: 4px 15px;
   border-radius: 8px;
 }
 #about {
