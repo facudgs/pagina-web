@@ -32,7 +32,11 @@ header {
 .nav {
   display: flex;
   gap: 20px;
-  font-size: 16px;
+}
+.nav a {
+  color: rgb(95, 19, 19);
+  font-family: var(--font-);
+  font-size: 20px;
 }
 main {
   display: flex;
@@ -59,14 +63,14 @@ main {
 }
 
 .hero-info h1,
-.info-cont h2 {
+.info-about h2 {
   color: var(--color-h);
   font-family: var(--font-h);
   font-size: 30px;
 }
 .hero-info p,
-.info-cont p,
-.info-cont ul {
+.info-about p,
+.info-about ul {
   color: white;
   font-family: var(--font-p);
   font-weight: 700;
@@ -91,7 +95,6 @@ main {
 }
 .btn2 a {
   border: 1px solid;
-  /* background: var(--bg-hd); */
   color: var(--color-h);
   padding: 4px 15px;
   border-radius: 8px;
@@ -103,7 +106,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-.info-cont {
+.info-about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,7 +115,116 @@ main {
   padding: 50px 0px;
   text-align: center;
 }
-
+.valores {
+  text-align: left;
+  line-height: 30px;
+}
 .valores span {
   font-size: 20px;
+}
+#sec-funciones {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  justify-content: left;
+  gap: 50px;
+  padding: 50px 0px;
+}
+.funciones {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.funciones h2 {
+  color: var(--color-h);
+  font-family: var(--font-h);
+  font-size: 30px;
+}
+.funciones ul,
+p {
+  color: white;
+  font-family: var(--font-p);
+  font-weight: 700;
+  line-height: 30px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(230, 216, 173, 0.349);
+  padding: 0px 10px;
+  gap: 15px;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+}
+.card p {
+  color: black;
+  text-align: center;
+  font-family: var(--font-p);
+}
+.card h3 {
+  font-family: var(--font-h);
+  font-size: 20px;
+}
+.card a {
+  background: var(--color-h);
+  color: var(--background);
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+footer {
+  font-family: "Concert One", cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-hd);
+  padding: 20px 50px;
+  gap: 40px;
+}
+
+footer {
+  justify-content: center;
+  /* align-items: center; */
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+.nube h4 {
+  color: rgb(95, 19, 19);
+  font-family: var(--font-h);
+  font-size: 20px;
+}
+.nube a {
+  color: rgb(141, 52, 10);
+  font-family: var(--font-p);
+  font-size: 15px;
+}
+
+.redes {
+  display: flex;
+  gap: 40px;
+}
+.logo-footer {
+  height: 80px;
+}
+.logo-redes {
+  height: 35px;
 }
